@@ -74,36 +74,36 @@ export function Footer(){
       <ul>
        <span>Segmentos</span>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Restaurantes</Link>
+<li onClick={()=> path == 'sistema-para-restaurantes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-para-restaurantes">Restaurantes</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Vestuário</Link>
+<li onClick={()=> path == 'sistema-de-gestao-para-lojas-de-roupa' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-de-gestao-para-lojas-de-roupa">Vestuário</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Minimercados</Link>
+<li onClick={()=> path == 'sistema-de-gestao-para-minimercados' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-de-gestao-para-minimercados">Minimercados</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Lanchonetes</Link>
+<li onClick={()=> path == 'sistema-para-restaurantes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-para-restaurantes">Lanchonetes</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Pizzarias</Link>
+<li onClick={()=> path == 'sistema-para-restaurantes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-para-restaurantes">Pizzarias</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Autopeças</Link>
+<li onClick={()=> path == 'sistema-de-gestao-para-autopecas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-de-gestao-para-autopecas">Autopeças</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Assistência Técnica</Link>
+<li onClick={()=> path == 'sistema-de-gestao-para-assistencia-tecnica' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-de-gestao-para-assistencia-tecnica">Assistência Técnica</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Calçados</Link>
+<li onClick={()=> path == 'sistema-de-gestao-para-lojas-de-calcados' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/sistema-de-gestao-para-lojas-de-calcados">Calçados</Link>
 </li>
 
       </ul>
@@ -119,40 +119,40 @@ export function Footer(){
 <Link to="/conheca/emissor-gratuito">Emissor de Notas</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Gestão Financeira</Link>
+<li onClick={()=> path == 'financeiro' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/financeiro">Gestão Financeira</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Programa de Vendas</Link>
+<li onClick={()=> path == 'programa-vendas' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/programa-vendas">Programa de Vendas</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Controle de Clientes</Link>
+<li onClick={()=> path == '/cadastro-e-controle-de-clientes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/cadastro-e-controle-de-clientes">Controle de Clientes</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Emissor de Boletos</Link>
+<li onClick={()=> path == 'emissao-de-boletos-com-o-blue-lite' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/emissao-de-boletos-com-o-blue-lite">Emissor de Boletos</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Ordens de Serviços</Link>
+<li onClick={()=> path == 'controle-de-os' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/controle-de-os">Ordens de Serviços</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Gestão de Estoque</Link>
+<li onClick={()=> path == 'controle-de-estoque' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/controle-de-estoque">Gestão de Estoque</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Controle de Caixa</Link>
+<li onClick={()=> path == 'controle-de-caixa-gratis' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/controle-de-caixa-gratis">Controle de Caixa</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Emissor de MDF-e</Link>
+<li onClick={()=> path == 'emissor-mdfe-gratuito' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/emissor-mdfe-gratuito">Emissor de MDF-e</Link>
 </li>
 
-<li onClick={()=> path == '' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
-<Link>Sistema para Loja</Link>
+<li onClick={()=> path == 'sistema-para-loja-gratis' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+<Link to="/conheca/sistema-para-loja-gratis">Sistema para Loja</Link>
 </li>
 
       </ul>

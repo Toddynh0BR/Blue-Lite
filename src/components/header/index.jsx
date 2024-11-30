@@ -61,14 +61,30 @@ export function Header(){
 
         { open ? 
                  <ul className="Open" ref={divRef}>
-                 <li>Restaurantes</li>
-                 <li>Vestuário</li>
-                 <li>Minimercados</li>
-                 <li>Lanchonetes</li>
+                 <Link to="/sistema-para-restaurantes">
+                  <li>Restaurantes</li>
+                 </Link>
+                 <Link to="/sistema-de-gestao-para-lojas-de-roupa">
+                  <li>Vestuário</li>
+                 </Link>
+                 <Link to="/sistema-de-gestao-para-minimercados">
+                  <li>Minimercados</li>
+                 </Link>
+                 <Link to="/sistema-para-restaurantes">
+                  <li>Lanchonetes</li>
+                 </Link>
+                 <Link to="/sistema-para-restaurantes">
                  <li>Pizzarias</li>
-                 <li>Autopeças</li>
-                 <li>Assistência Técnica</li>
-                 <li>Calçados</li>
+                 </Link>
+                 <Link to="/sistema-de-gestao-para-autopecas">
+                  <li>Autopeças</li>
+                 </Link>
+                 <Link to="/sistema-de-gestao-para-assistencia-tecnica">
+                  <li>Assistência Técnica</li>
+                 </Link>
+                 <Link to="/sistema-de-gestao-para-lojas-de-calcados">
+                  <li>Calçados</li>
+                 </Link>
                 </ul>
          :
          null

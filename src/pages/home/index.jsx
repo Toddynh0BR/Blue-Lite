@@ -2,6 +2,8 @@ import * as S from "./style";
 
 import { Link } from "react-router-dom";
 
+import { useEffect } from "react";
+
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
@@ -22,6 +24,14 @@ import l4 from "./assets/list-features-icon-4.svg";
 import Inter from "./assets/integracoes-sige-lite.png";
 
 export function Home(){
+  useEffect(() => {
+ 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+  }, []);
+  
     return(
      <S.Container>
       <Header/>

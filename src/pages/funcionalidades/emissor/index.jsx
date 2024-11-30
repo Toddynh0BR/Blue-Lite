@@ -24,9 +24,6 @@ import i2 from "./assets/icon-invoice.svg";
 export function Emissor() {
   const section1Ref = useRef(null);
   const section2Ref = useRef(null);
-  const section3Ref = useRef(null);
-  const section4Ref = useRef(null);
-
 
   const handleScrollToSection = (sectionRef) => {
     sectionRef.current.scrollIntoView({
@@ -258,7 +255,7 @@ Qual o tipo de venda que <strong> você faz na sua empresa?</strong></h3>
       </div>
      </S.Main4>
 
-     <S.Main4 ref={section2Ref} style={{ backgroundColor: '#e7e7e7'}}>
+     <S.Main4  style={{ backgroundColor: '#e7e7e7'}}>
       <div  className="left">
       <img src={Image3} alt="" />
       </div>
@@ -279,7 +276,7 @@ Qual o tipo de venda que <strong> você faz na sua empresa?</strong></h3>
       </div>
      </S.Main4>
 
-     <S.Main4 ref={section3Ref}>
+     <S.Main4 >
       <div  className="left">
        <h3>
        Compatível com <strong> certificados A1 e A3</strong>
@@ -298,7 +295,7 @@ Qual o tipo de venda que <strong> você faz na sua empresa?</strong></h3>
       </div>
      </S.Main4>
 
-     <S.Banner style={{ backgroundColor: '#00ffff'}}>
+     <S.Banner ref={section2Ref} style={{ backgroundColor: '#00ffff'}}>
       <h2>
       Venda em Balcão
       </h2>
@@ -357,7 +354,7 @@ a venda
       </ul>
      </S.Banner>
 
-     <S.Main4 ref={section4Ref}>
+     <S.Main4 >
       <div  className="left">
       <img src={Image5} alt="" />
       </div>
@@ -377,7 +374,7 @@ a venda
       </div>
      </S.Main4>
 
-     <S.Main4 ref={section2Ref} style={{ backgroundColor: '#e7e7e7'}}>
+     <S.Main4  style={{ backgroundColor: '#e7e7e7'}}>
       <div  className="left">
       <img src={Image6} alt="" />
       </div>
@@ -399,7 +396,7 @@ a venda
       </div>
      </S.Main4>
 
-     <S.Main4 ref={section3Ref}>
+     <S.Main4 >
       <div  className="left">
        <h3>
       <strong> Gestão Empresarial </strong> de ponta a ponta

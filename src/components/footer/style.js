@@ -13,7 +13,6 @@ padding: 10rem 12rem;
 justify-content: space-between;
 display: flex;
 position: relative;
-z-index: 100;
 gap: 3rem;
 
 .about {

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { GoShieldCheck } from "react-icons/go";
 import { FaPlus } from "react-icons/fa6";
 
-import Image1 from "./assets/icon-head-emissor-gratuito.png";
+import Image1 from "./assets/icon-head-emissor-mdfe.png";
 import Image2 from "./assets/big-icon-foguete.svg";
 import Image3 from "./assets/big-icon-danfe.svg";
 import Image4 from "./assets/big-icon-certificadoA1A3.svg";

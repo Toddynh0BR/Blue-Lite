@@ -113,6 +113,7 @@ position: relative;
 img {
  width: 60rem;
  z-index: 3;
+ border-radius: 1rem;
 }
 
 .rest {

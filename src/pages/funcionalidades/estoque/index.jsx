@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 import { GoShieldCheck } from "react-icons/go";
 
-import Image1 from "./assets/backend-controle-de-estoque.png";
+import Image1 from "./assets/icon-header-planilha-para-controle-de-estoque.png";
 import Image2 from "./assets/leitor-codigo-barras.svg";
 import Image3 from "./assets/big-icon-tecnicos.svg";
 import Image4 from "./assets/big-icon-controle-de-estoque.svg";

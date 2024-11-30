@@ -47,7 +47,6 @@ export function AppRoutes() {
       <Route path="/conheca/financeiro" element={<Financeiro />}/>
       <Route path="/conheca/programa-vendas" element={<ProgramaVendas />}/>
       <Route path="/conheca/cadastro-e-controle-de-clientes" element={<Cadastro />}/>
-
       <Route path="/conheca/controle-de-os" element={<Controle />}/>
       <Route path="/conheca/controle-de-estoque" element={<Estoque />}/>
       <Route path="/conheca/controle-de-caixa-gratis" element={<Caixa />}/>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import { GoShieldCheck } from "react-icons/go";
 import { FaPlus } from "react-icons/fa6";
 
-import Image1 from "./assets/icon-head-conheca-programa-de-caixa.png";
+import Image1 from "./assets/icon-head-conheca-programa-de-caixa.svg";
 import Image2 from "./assets/imgVendasRapidas.png";
 import Image3 from "./assets/leitor-codigo-barras.svg";
 import Image4 from "./assets/big-icon-clientes-e-produtos.svg";

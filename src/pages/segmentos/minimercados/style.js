@@ -432,8 +432,7 @@ h2 {
 
  background-image: url(${EspecialBack});
  background-size: cover;
- padding: 10rem;
-
+ padding: 16rem 5rem;
  h2 {
   font-size: 2.8rem;
   font-weight: 600;

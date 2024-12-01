@@ -19,7 +19,7 @@ import C1I2 from '../assets/sige-loja-restaurantes.png';
 import C2I1 from "../assets/app-de-vendas.png";
 import C2I2 from "../assets/catalogo-virtual.png";
 
-import C3I1 from "../assets/pdv-online-lite.gif";
+import C3I1 from "../assets/contorle-de-pedidos-restaurante.png";
 import C3I2 from "../assets/contorle-de-pedidos-restaurante.png";
 
 import { GoShieldCheck } from "react-icons/go";

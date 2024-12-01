@@ -6,12 +6,15 @@ import PriceText from "./assets/price.svg";
 
 export const Container = styled.div`
 padding-top: 7rem;
+
+@media (max-width: 450px) {
+  padding-top: 5rem;
+}
 `
 
 export const Main = styled.main`
 height: 70vh;
 width: 100%;
-
 
 background-color: #ffc77e;
 padding: 0 8rem 0 10rem;
@@ -242,6 +245,104 @@ gap: 2rem;
    transform: scale(103%);
    cursor: pointer;
  }
+ }
+}
+
+@media (max-width: 1200px) {
+ height: 70vh;
+ padding: 0;
+
+ .text {
+  display: none;
+ }
+
+ .center {
+  height: 100%;
+  width: 100%;
+
+  border-radius: 0;
+
+  .title {
+  height: 10%;
+
+  padding: 0 1rem;
+
+  span {
+   font-size: 1.6rem;
+   font-weight: 400;
+   color: #fff;
+  }
+
+  svg {
+   font-size: 2.2rem;
+   color: #0074FF;
+  }
+  }
+
+  .rest {
+  padding: 2rem 1rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 3rem;
+ 
+    height: 4rem;
+    width: 10rem;
+    background-image: url(${PriceText});
+    background-size: cover;
+  }
+
+  &::before {
+    content: '';
+
+    height: 25rem;
+    width: 100%;
+    background-image: url(${RocketMan});
+    background-size: cover;
+  }
+
+  .price {
+
+
+   span {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #0074FF;
+   }
+
+   h2 {
+    font-size: 5.7rem;
+
+    strong {
+     font-size: 2.2rem;
+
+    }
+   }
+
+   .back {
+
+    h2 {
+    font-size: 5.7rem;
+    strong {
+     font-size: 2.2rem;
+    }
+    }
+   }
+  }
+
+  .texts {
+   height: 40%;
+   width: 100%;
+
+
+  }
+ }
+ }
+
+ .blueerp {
+  display: none;
  }
 }
 `
@@ -615,5 +716,21 @@ gap: 2rem;
    cursor: pointer;
  }
  }
+}
+
+@media (max-width: 450px) {
+  padding: 0;
+
+  .ads {
+    display: none;
+  }
+
+  .plans {
+    width: 100%;
+  }
+
+  .blueerp {
+    display: none;
+  }
 }
 `

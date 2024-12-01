@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import { useEffect } from "react";
 
+import { Preload } from "../../components/preload";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
@@ -34,6 +35,7 @@ export function Home(){
   
     return(
      <S.Container>
+     <Preload/>
       <Header/>
       <S.Main>
        <h2>
@@ -258,7 +260,7 @@ Gere lançamentos financeiros a partir de <strong>vendas</strong>, controle o <s
          Sistema frente de caixa <br /> integrado ao financeiro e <br /> estoque, <strong> para você nunca mais <br /> se perder nas contas.</strong>
          </h3>
 
-         <Link>
+         <Link to="/conheca/programa-de-caixa">
          Mais sobre Frente de Faixa
          </Link>
         </div>

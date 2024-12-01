@@ -2,14 +2,12 @@ import styled from "styled-components";
 
 import BackMain from "./assets/backend-programa-de-caixa.png";
 
-import BackE from "./assets/gerencie-suas-entregas-com-o-sige-lite.svg";
-import Cheap from "./assets/erp-barato.svg";
-
-import Happy from "./assets/happy-people.png";
-import Sad from "./assets/people-line.png";
-
 export const Container = styled.div`
 padding-top: 7rem;
+
+@media (max-width: 450px) {
+  padding-top: 5rem;
+}
 `
 
 export const Main = styled.main`
@@ -179,6 +177,75 @@ img {
   }
  }
 }
+
+@media (max-width: 450px) {
+  height: fit-content;
+
+ &::before {
+    display: none;
+ }
+
+ img {
+  display: none;
+ }
+
+ .text {
+ height: fit-content;
+ padding: 5rem 2rem;
+
+ .texts {
+
+  h2 {
+    font-size: 3.1rem;
+    line-height: 3.7rem;
+  }
+
+  span {
+    font-size: 1.6rem;
+  }
+
+  button {
+   height: 6rem;
+   width: 22rem;
+
+   background-color: rgb(9, 194, 9);
+   margin-bottom: 1.5rem;
+   border-radius: 6rem;
+   border: none;
+
+   font-weight: 100;
+   font-size: 2rem;
+   color: #FFFFFF;
+
+   &:hover {
+    background-color: #ff9100;
+    transform: scale(103%);
+    cursor: pointer;
+   }
+  }
+
+ }
+}
+
+.rest {
+ height: fit-content;
+
+ padding: 0 2rem;
+
+ h3 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    font-weight: 300;
+    color: #0074FF;
+
+    margin-top: 1rem;
+  }
+
+ .cards {
+  display: none;
+ }
+}
+}
 `
 
 export const Main2 = styled.div`
@@ -242,6 +309,34 @@ display: flex;
   color: #363636;
  }
 }
+
+@media (max-width: 450px) {
+  height: fit-content;
+  padding: 5rem 2rem;
+
+  flex-direction: column;
+  gap: 2rem;
+
+  .left {
+   height: fit-content;
+   width: 100%;
+
+   h2 {
+  font-size: 2.7rem;
+   }
+
+   button {
+
+    width: 29rem;
+ }
+  }
+
+  .right {
+ height: fit-content;
+ width: 100%; 
+
+}
+}
 `
 
 export const Main3 = styled.div`
@@ -302,6 +397,10 @@ h3 {
  font-weight: 300;
  color: #200DFF;
 }
+
+@media (max-width: 450px) {
+display: none;
+}
 `
 
 export const Main4 = styled.div`
@@ -340,5 +439,23 @@ p {
 
 img {
  width: 40rem;
+}
+
+@media (max-width: 450px) {
+  height: fit-content;
+  padding: 5rem 2rem;
+
+  flex-direction: column;
+
+  .left, .right {
+   height: fit-content;
+   width: 100%;
+   justify-content: center;
+   text-align: center;
+  }
+
+img {
+ display: none;
+}
 }
 `

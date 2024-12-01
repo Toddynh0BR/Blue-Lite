@@ -1,5 +1,6 @@
 import * as S from "./style";
 
+import { Preload } from "../../../components/preload";
 import { Header } from "../../../components/header";
 import { Footer } from "../../../components/footer";
 
@@ -44,6 +45,7 @@ export function Financeiro() {
   
   return (
     <S.Container>
+      <Preload/>
      <Header/>
      <S.Main>
       <div className="text">

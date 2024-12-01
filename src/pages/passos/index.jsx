@@ -1,12 +1,13 @@
 import * as S from "./style";
 
+import { Preload } from "../../components/preload";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-import Image1 from "./assets/imgSigeCaixaGratis.svg";
+import Image1 from "./assets/pdv-off.png";
 import { TiArrowUpOutline } from "react-icons/ti";
 
 
@@ -22,6 +23,7 @@ export function Passos() {
   
   return (
     <S.Container>
+      <Preload/>
      <Header/>
      <S.Main>
       <div className="text">
@@ -36,9 +38,11 @@ export function Passos() {
            ao máximo todos os recursos do Sistema Blue Lite!
           </span>
 
-          <button>
+          <a href="https://www.youtube.com/@BlueInnovation-m3g/search?query=offline" target="blank">
+           <button>
             Acompanhe no Youtube
-          </button>
+           </button>
+          </a>
         </div>
 
         <img src={Image1} alt="" />
@@ -62,13 +66,13 @@ export function Passos() {
       </div>
 
       <div className="video">
-      <iframe   src="https://www.youtube.com/embed/QD4lG6KrsUE?si=dtUN1QZbgwsHPwYX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/k9ELg6Q7L4c?si=aBlsVCawMJdZ5NcT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
      </div>
 
      <div className="CardTwo">
       <div className="video">
-      <iframe  src="https://www.youtube.com/embed/YgfdF_io85g?si=-2bOrFlEnddG8gfq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/rxh168ajDL4?si=J1zrwG8RqJe8uv5w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
 
       <div className="texts">
@@ -102,7 +106,7 @@ export function Passos() {
       </div>
 
       <div className="video">
-      <iframe src="https://www.youtube.com/embed/Ih_8cpOlXVA?si=Y5_E23wU6BPaIN96" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/a3P6HZkppDk?si=qQzS2vIa9mcUgNWq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
      </div>
 

@@ -154,6 +154,35 @@ box-shadow: 0px 10px 24px -9px rgba(0,0,0,0.75);
    
  }
 }
+
+@media (max-width: 450px){
+ h2 {
+  font-size: 3.5rem;
+  margin: 0 1rem;
+ }
+
+ span {
+  margin: 0 2rem 3rem 2rem;
+  text-align: center;
+ }
+
+ .buttons {
+  flex-direction: column;
+  gap: 1rem;
+
+  button, .button {
+    width: 28rem;
+  }
+ }
+
+ .bottom {
+  text-align: center;
+  padding: 2rem;
+  ul {
+   display: none;
+  }
+ }
+}
 `
 
 export const Main2 = styled.div`
@@ -270,6 +299,33 @@ ul {
   border-bottom: 2px solid #004798;
  }
 
+ @media (max-width: 450px){
+  height: fit-content;
+  padding: 4rem 2rem;
+
+  ul {
+    display: none;
+  }
+
+  .grid {
+    height: fit-content;
+
+    background-color: transparent;
+    border-radius: 0;
+
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: none;
+    gap: 2rem;
+
+    .box {
+      background-color: #FFFFFF;
+      border-radius: 1rem;
+      height: fit-content;
+      min-height: 30rem;
+    }
+  }
+ }
+
 `
 
 export const Main3 = styled.div`
@@ -343,13 +399,33 @@ img {
   color: #200DFF;
  }
 }
+
+@media (max-width: 450px){
+height: fit-content;
+padding: 4rem 2rem;
+
+flex-direction: column;
+align-items: center;
+gap: 5rem;
+
+.left {
+  text-align: center;
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+img {
+ width: 100%;
+}
+}
 `
 
 export const Main4 = styled.div`
 height: 100vh;
 width: 100%;
-
-
 
 background: #0074FF url(${BackBlue}) no-repeat center; 
 background-size: cover;
@@ -378,5 +454,20 @@ display: flex;
 
   cursor: pointer;
  }
+}
+
+@media (max-width: 450px){
+  height: fit-content;
+  padding: 4rem 2rem;
+
+  background: linear-gradient(180deg, rgba(0,116,255,1) 0%, rgba(0,71,152,1) 100%);
+
+  .left {
+    h3 {
+      font-size: 3rem;
+    }
+  
+    text-align: center;
+  }
 }
 `

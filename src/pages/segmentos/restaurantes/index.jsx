@@ -1,5 +1,6 @@
 import * as S from "./style";
 
+import { Preload } from "../../../components/preload";
 import { Header } from "../../../components/header";
 import { Footer } from "../../../components/footer";
 import { Link } from "react-router-dom";
@@ -72,6 +73,7 @@ export function Restaurante() {
 
     return (
         <S.Container data-subHeader={isOutOfView}>
+          <Preload/>
          <Header />
 
          <div className="subheader">

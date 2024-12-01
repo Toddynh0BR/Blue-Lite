@@ -88,4 +88,61 @@ ul {
     }
   }
 }
+
+@media (max-width: 1000px) {
+ height: 110vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: 
+  "about about"
+  "c1 c2"
+  "c3 c4";
+  display: grid;
+  column-gap: 1.5rem;
+  row-gap: 3rem;
+
+  padding: 5rem 2rem;
+
+  ul {
+   width: 100%;
+
+   span {
+   font-size: 1.9rem;
+   font-weight: 600;
+   color: #ff9100;
+   white-space: nowrap;
+   margin-bottom: 1.5rem;
+  }
+
+  li {
+    list-style: none;
+    margin-top: 1rem;
+
+    a {     
+     font-size: 1.7rem;
+     color: #0074FF;
+
+     &:hover {
+      cursor: pointer;
+      color: #ff9100;
+     }
+    }
+  }
+  }
+  .C1 {
+    grid-area: c1;
+  }
+  .C2 {
+    grid-area: c2;
+  }
+  .C3 {
+    grid-area: c3;
+  }
+  .C4 {
+    grid-area: c4;
+  }
+  .about {
+    grid-area: about;
+  }
+}
 `

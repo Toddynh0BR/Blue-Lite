@@ -134,6 +134,9 @@ img {
  }
 }
 
+.Mobal {
+ display: none;
+}
 
 @media (max-width: 450px){
  height: 5rem;
@@ -141,26 +144,53 @@ img {
 
  overflow: hidden;
  padding: 0 2rem;
+ gap: 2rem;
 
  img {
-   height: 5rem;
+   height: 4rem;
  }
 
  .Right {
   display: none;
  }
 
- .MOBAL {
+ .Mobal {
+   display: flex;
+
+   .Topic {
+  width: fit-content;
+  height: 100%;
+
+  padding: .5rem;
+
+  position: relative;
+  justify-content: center;
   align-items: center;
   display: flex;
-  gap: 2rem;
+  gap: .5rem;
+  
 
-  span {
+  a, span {
    color: #FFFFFF;
-   font-size: 1.4rem;
+   font-size: 1.2rem;
    font-weight: 700;
   }
-}
+  p {
+   color: #FFFFFF;
+   font-size: 1.2rem;
+   font-weight: 700;
+  }
+  svg {
+   color: #FFFFFF;
+   font-size: 1.5rem;
+  }
+
+
+  &:hover {
+   cursor: pointer;
+  }
+ }
+ }
 }
 `
 

@@ -39,7 +39,7 @@ export function Footer(){
        </div>
       </div>
 
-      <ul>
+      <ul className='C1'>
        <span>Mapa do site</span>
 <li onClick={()=> path == 'primeiros-passos' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
 <Link to="/primeiros-passos">Primeiros Passos</Link>
@@ -64,14 +64,14 @@ export function Footer(){
 
       </ul>
 
-      <ul>
+      <ul className='C2'>
        <span>Soluções Integradas</span>
         <li onClick={()=> path == 'loja-virtual' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
         <Link to="/loja-virtual">Loja Virtual</Link>
         </li>       
       </ul>
 
-      <ul>
+      <ul className='C3'>
        <span>Segmentos</span>
 
 <li onClick={()=> path == 'sistema-para-restaurantes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
@@ -108,7 +108,7 @@ export function Footer(){
 
       </ul>
 
-      <ul>
+      <ul className='C4'>
         <span>Funcionalidades</span>
   
 <li onClick={()=> path == 'programa-de-caixa' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>

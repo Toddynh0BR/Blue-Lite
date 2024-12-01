@@ -19,7 +19,7 @@ export const Container = styled.div`
   height: 8rem;
   width: 8rem;
 
-  border: .4rem solid #8f00fc;
+  border: .4rem solid #0074FF;
   border-top: .4rem solid #ffffff ;
   border-bottom: .4rem solid #ffffff ;
   border-radius: 50%;

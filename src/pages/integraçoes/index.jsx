@@ -3,6 +3,7 @@ import * as S from "./style";
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
+import { Preload } from "../../components/preload";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
@@ -57,6 +58,7 @@ export function Integraçoes() {
 
     return(
      <S.Container>
+       <Preload/>
       <Header/>
       <S.Main>
        <div className="left">

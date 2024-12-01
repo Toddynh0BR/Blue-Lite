@@ -52,7 +52,7 @@ export function Header(){
         <Link to="/loja-virtual">Loja Online</Link> 
        </div>
        
-       <div className="Topic" onClick={()=> path == 'central-de-integracoes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+       <div className="Topic Inter" onClick={()=> path == 'central-de-integracoes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
         <Link to="/central-de-integracoes">Integrações</Link> 
        </div>
 
@@ -98,6 +98,20 @@ export function Header(){
        </Link>
       </div>
 
+       <div className="Mobal">
+       <div className="Topic " onClick={()=> path == 'planos' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+        <Link to="/planos">Premium</Link> 
+       </div>
+
+       
+       <div className="Topic" onClick={()=> path == 'loja-virtual' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+        <Link to="/loja-virtual">Loja Online</Link> 
+        </div>
+
+       <div className="Topic Inter" onClick={()=> path == 'central-de-integracoes' ? window.scrollTo({ top: 0, behavior: "smooth",  }) : null}>
+        <Link to="/central-de-integracoes">Integrações</Link> 
+       </div>
+       </div>
      </S.Container>
     )
 };

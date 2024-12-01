@@ -2,6 +2,7 @@ import * as S from "./style";
 
 import { useEffect, useState } from "react";
 
+import { Preload } from "../../components/preload";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
@@ -36,6 +37,7 @@ export function Premium(){
      }, []);
     return(
      <S.Container>
+      <Preload />
       <Header />
        
       <S.Main>

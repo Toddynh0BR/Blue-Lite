@@ -104,10 +104,20 @@ padding-top: 7rem;
  }
 }
 }
+
+@media (max-width: 450px) {
+padding-top: 5rem;
+
+&[data-subHeader="true"] {
+  .subheader {
+ display: none;
+}
+}
+}
 `
 
 export const Main = styled.main`
-height: 110vh;
+height: 100vh;
 width: 100%;
 
 background: linear-gradient(0deg, rgba(0,116,255,1) 0%, rgba(0,71,152,1) 100%);
@@ -242,6 +252,34 @@ position: relative;
   }
  }
 }
+
+@media (max-width: 450px) {
+  height: fit-content;
+
+  padding: 2rem 2rem 5rem 2rem;
+
+  .Background {
+    display: none;
+  }
+
+  .left {
+    height: fit-content;
+    width: 100%;
+
+    ul {
+  li {
+
+    p {
+     font-size: 1.6rem;
+    }
+  }
+ }
+  }
+
+  .bottom {
+    display: none;
+  }
+}
 `
 
 export const Main2 = styled.div`
@@ -308,6 +346,21 @@ img {
   }
  }
 }
+
+@media (max-width: 450px) {
+ height: fit-content;
+
+ padding: 2rem;
+
+ img {
+  display: none
+ }
+
+ .left {
+ height: fit-content;
+ width: 100%;
+}
+}
 `
 
 export const Main3 = styled.div`
@@ -315,7 +368,7 @@ min-height: 100vh;
 width: 100%;
 
 
-padding: 15rem 10rem 100rem 10rem;
+padding: 15rem 10rem 95rem 10rem;
 position: relative;
 
 justify-content: center;
@@ -423,7 +476,7 @@ h2 {
  width: 100%;
 
  position: absolute;
- top: 85rem;
+ top: 160rem;
  left: 0;
 
  flex-direction: column;
@@ -558,10 +611,125 @@ h2 {
   }
  }
 }
+
+@media (max-width: 450px) {
+ padding: 15rem 2rem;
+
+
+ .title {
+  width: 100%;
+
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+
+  left: 2rem;
+  top: 1rem;
+
+  h3 {
+   font-size: 1.8rem;
+  }
+  h2 {
+   font-size: 2.4rem;
+  }
+ }
+
+ .columns {
+ grid-template-columns: repeat(1, 1fr);
+ gap: 1rem;
+
+ .line1 {
+  display: none;
+ }
+
+ .column {
+  gap: 5rem;
+
+  .topic {
+   height: fit-content;
+   span {
+    font-size: 1.6rem;
+   }
+
+   p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+   }
+  }
+ }
+
+ .c2 {
+  margin-top: 2rem;
+ }
+ .c3 {
+  margin-top: 2rem;
+ }
+ }
+
+ .image {
+ display: none;
+ }
+
+ .rest {
+ height: fit-content;
+ position: relative;
+ padding: 2rem;
+ gap: 1rem;
+
+ span {
+  font-size: 2.2rem;
+ }
+
+ h2 {
+  font-size: 2.5rem;
+ }
+
+ ul {
+  justify-content: center;
+  flex-direction: column;
+
+  li {
+   height: fit-content;
+
+   span {
+    font-size: 1.6rem;
+   }
+
+   p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+   }
+
+
+  }
+ }
+
+ button {
+    height: 6.2rem;
+    width: 20rem;
+
+    background: rgb(9, 194, 9);
+    border-radius: 6.2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    border: none;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+
+  &:hover {
+   background-color: #ff9100;
+   cursor: pointer;
+  }
+ }
+}
+
+}
 `
 
 export const Main4 = styled.div`
-height: 150vh;
+height: 200vh;
 width: 100%;
 
 background: linear-gradient(180deg, rgba(0,116,255,1) 0%, rgba(0,71,152,1) 100%);
@@ -641,6 +809,62 @@ img {
    cursor: pointer;
   }
  }
+}
+
+@media (max-width: 450px) {
+height: fit-content;
+
+padding: 2rem;
+
+img {
+ display: none;
+}
+
+.left {
+ width: 100%;
+ span {
+  font-size: 2.2rem;
+ }
+
+ h2 {
+  font-size: 2.5rem;
+
+  margin-bottom: 2rem;
+ }
+
+ h3 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+ }
+
+ p {
+  line-height: 2rem;
+  font-size: 1.4rem;
+
+
+  margin-bottom: 2rem;
+ }
+
+ button {
+  height: 6.2rem;
+  width: 20rem;
+
+  background: rgb(9, 194, 9);
+  border-radius: 6.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  border: none;
+
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #fff;
+
+  &:hover {
+   background-color: #ff9100;
+   cursor: pointer;
+  }
+ }
+}
 }
 `
 
@@ -744,6 +968,24 @@ display: flex;
   background-image: url(${Happy});
  }
 }
+
+@media (max-width: 450px){
+  height: fit-content;
+
+  padding: 2rem;
+
+  .image {
+    display: none;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .texts {
+    padding: 0;
+  }
+}
 `
 
 export const Main6 = styled.div`
@@ -829,5 +1071,26 @@ h3 {
   opacity: 0;
   }
  }
+}
+
+@media (max-width: 450px){
+  padding: 5rem 2rem;
+
+  .topic {
+    .card {
+      p {
+        font-size: 1.4rem;
+      }
+
+
+    }
+
+    .response {
+      height: 15rem;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
 `

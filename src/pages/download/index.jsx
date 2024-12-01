@@ -3,6 +3,7 @@ import * as S from "./style";
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 
+import { Preload } from "../../components/preload";
 import { Footer } from "../../components/footer";
 
 import { GiShoppingCart } from "react-icons/gi";
@@ -59,6 +60,8 @@ export function Download(){
 
     return(
      <S.Container>
+      <Preload/>
+
       <S.Main>
        <header>
         <Link to="/">
@@ -129,15 +132,15 @@ export function Download(){
         <strong>Parceiros </strong> que geram confiança:
         </span>
 
-        <img src={p1} alt="" />
+        <img src={p1} alt="" className="Item1"/>
 
-        <img src={p2} alt="" />
+        <img src={p2} alt="" className="Item2"/>
 
-        <img src={p3} alt="" />
+        <img src={p3} alt="" className="Item3"/>
 
-        <img src={p4} alt="" />
+        <img src={p4} alt="" className="Item4"/>
 
-        <img src={p5} alt="" />
+        <img src={p5} alt="" className="Item5"/>
       </S.Main2>
 
       <S.Main3>
@@ -528,12 +531,12 @@ Se você precisar emitir <strong>CF-e SAT</strong> (em São Paulo), será necess
       <S.Main6>
         <h2>Blue Lite na Mídia:</h2>
 
-        <img src={l1} alt="" />
-        <img src={l2} alt="" />
-        <img src={l3} alt="" />
-        <img src={l4} alt="" />
-        <img src={l5} alt="" />
-        <img src={l6} alt="" />
+        <img src={l1} alt="" className="item1"/>
+        <img src={l2} alt="" className="item2"/>
+        <img src={l3} alt="" className="item3"/>
+        <img src={l4} alt="" className="item4"/>
+        <img src={l5} alt="" className="item5"/>
+        <img src={l6} alt="" className="item6"/>
       </S.Main6>
 
       <Footer/>

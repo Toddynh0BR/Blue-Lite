@@ -28,6 +28,9 @@ padding-top: 7rem;
 
  cursor: pointer;
 }
+
+@media (max-width: 450px){
+}
 `
 
 export const Main = styled.main`
@@ -136,7 +139,31 @@ img {
  z-index: 3;
 }
 
+@media (max-width: 450px){
+  height: 100vh;
+  padding: 7rem 0rem 5rem;
 
+ .text {
+  flex-direction: column;
+  display: flex;
+  gap: 4rem;
+
+  padding: 2rem;
+
+  br {
+    display: none;
+  }
+ }
+
+ &::before {
+ display: none;
+}
+
+img {
+ width: 100%;
+}
+
+}
 `
 
 export const Main2 = styled.div`
@@ -155,7 +182,6 @@ padding: 0 20rem;
  height: 50rem;
  width: 100%;
  
-
  background: linear-gradient(270deg, rgba(44,195,255,1) 0%, rgba(0,116,255,1) 100%);
  border-radius: 2rem 0 2rem 0;
  padding: 7rem 0rem 7rem 7rem;
@@ -265,6 +291,60 @@ padding: 0 20rem;
   }
  }
 }
+
+@media (max-width: 450px){
+  padding: 5rem 0rem;
+
+  .CardOne {
+    height: fit-content;
+
+    padding: 5rem 2rem;
+    border-radius: 0rem;
+
+    flex-direction: column;
+    display: flex;
+    gap: 4rem;
+
+    .texts {
+      width: 100%;
+
+      h4 {
+        width: 100%;
+      }
+    }
+    .video {
+      width: 100%;
+      height: 25rem;
+
+      margin: 0;
+    }
+  }
+
+  .CardTwo {
+    height: fit-content;
+
+    padding: 3rem 2rem;
+    border-radius: none;
+
+    flex-direction: column-reverse;
+    display: flex;
+    gap: 4rem;
+
+    .texts {
+      width: 100%;
+
+      h4, p {
+        width: 100%;
+      }
+    }
+    .video {
+      width: 100%;
+      height: 25rem;
+
+      margin: 0;
+    }
+  }
+}
 `
 
 export const Main3 = styled.div`
@@ -307,5 +387,11 @@ button {
     cursor: pointer;
     color: #FFFFFF;
    }
+}
+
+@media (max-width: 450px){
+  height: fit-content;
+  padding: 5rem 2rem;
+  
 }
 `

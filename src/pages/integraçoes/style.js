@@ -8,6 +8,10 @@ import Sad from "./assets/people-line.png";
 
 export const Container = styled.div`
 padding-top: 7rem;
+
+@media (max-width: 450px){
+ padding-top: 5rem;
+}
 `
 
 export const Main = styled.div`
@@ -101,6 +105,20 @@ button {
  }
 }
 }
+
+@media (max-width: 450px){
+padding: 4rem 2rem;
+
+flex-direction: column;
+
+
+.left {
+ width: 100%;
+}
+img {
+ display: none;
+}
+}
 `
 
 export const Main2 = styled.div`
@@ -181,6 +199,19 @@ ul {
   }
  }
 }
+
+@media (max-width: 450px){
+ height: fit-content;
+ padding: 5rem 2rem;
+ 
+ flex-direction: column;
+ gap: 4rem;
+
+  ul {
+  height: fit-content;
+  width: 100%;
+  }
+}
 `
 
 export const Main3 = styled.div`
@@ -250,6 +281,24 @@ position: relative;
   }
  }
 }
+
+@media (max-width: 450px){
+height: fit-content;
+
+flex-direction: column;
+
+.left {
+ display: none;
+}
+
+.right {
+ width: 100%;
+ padding: 5rem 2rem;
+
+ align-items: center;
+ text-align: center;
+}
+}
 `
 
 export const Main4 = styled.div`
@@ -313,6 +362,14 @@ ul {
    color: #363636;
   }
  }
+}
+
+@media (max-width: 450px){
+  padding: 5rem 2rem;
+
+  ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 `
 
@@ -416,6 +473,24 @@ display: flex;
   background-image: url(${Happy});
  }
 }
+
+@media (max-width: 450px){
+  height: fit-content;
+
+  padding: 2rem;
+
+  .image {
+    display: none;
+  }
+
+  .center {
+    display: none;
+  }
+
+  .texts {
+    padding: 0;
+  }
+}
 `
 
 export const Main6 = styled.div`
@@ -501,5 +576,26 @@ h3 {
   opacity: 0;
   }
  }
+}
+
+@media (max-width: 450px){
+  padding: 5rem 2rem;
+
+  .topic {
+    .card {
+      p {
+        font-size: 1.4rem;
+      }
+
+
+    }
+
+    .response {
+      height: 15rem;
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
 `

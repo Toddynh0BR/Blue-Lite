@@ -367,8 +367,7 @@ export const Main3 = styled.div`
 min-height: 100vh;
 width: 100%;
 
-
-padding: 15rem 10rem 95rem 10rem;
+padding-top: 20rem;
 position: relative;
 
 justify-content: center;
@@ -403,6 +402,8 @@ h2 {
  width: 100%;
 
  position: relative;
+ padding: 0 10rem 0rem 10rem;
+ margin-bottom: -12rem;
 
  grid-template-columns: repeat(3, 1fr);
  display: grid;
@@ -420,7 +421,7 @@ h2 {
   position: absolute;
   z-index: 1;
   left: 50%;
-  top: 10rem;
+  top: 15rem;
  }
 
  .column {
@@ -475,10 +476,6 @@ h2 {
  height: 110vh;
  width: 100%;
 
- position: absolute;
- top: 160rem;
- left: 0;
-
  flex-direction: column;
  display: flex;
  gap: 3rem;
@@ -521,7 +518,7 @@ h2 {
   width: 40rem;
   transform: translateY(-50%);
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 32%;
  }
 }
@@ -530,9 +527,7 @@ h2 {
  height: 100vh;
  width: 100%;
 
- position: absolute;
- bottom: 0;
- left: 0;
+ margin-top: -10rem;
 
  padding: 5rem 10rem;
 
@@ -729,7 +724,7 @@ h2 {
 `
 
 export const Main4 = styled.div`
-height: 200vh;
+height: 130vh;
 width: 100%;
 
 background: linear-gradient(180deg, rgba(0,116,255,1) 0%, rgba(0,71,152,1) 100%);

@@ -229,8 +229,6 @@ position: relative;
  z-index: 2;
  top: 0;
  
- background-image: url(${CircleBack});
- background-size: cover;
  padding: 0 20rem 0 0;
 
  justify-content: flex-end;
@@ -238,7 +236,21 @@ position: relative;
  display: flex;
 
  img {
+  position: relative;
   width: 34rem;
+  z-index: 3;
+ }
+
+ .leftBack {
+  height: 100%;
+  width: 110%;
+
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-size: cover;
  }
 }
 

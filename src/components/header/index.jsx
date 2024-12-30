@@ -61,30 +61,125 @@ export function Header(){
 
         { open ? 
                  <ul className="Open" ref={divRef}>
+                 <li className={ path == 'sistema-para-restaurantes' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-para-restaurantes') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-para-restaurantes">
-                  <li>Restaurantes</li>
+                  Restaurantes
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-de-gestao-para-lojas-de-roupa' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-de-gestao-para-lojas-de-roupa') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-de-gestao-para-lojas-de-roupa">
-                  <li>Vestuário</li>
+                  Vestuário
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-de-gestao-para-minimercados' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-de-gestao-para-minimercados') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-de-gestao-para-minimercados">
-                  <li>Minimercados</li>
+                  Minimercados
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-para-restaurantes' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-para-restaurantes') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-para-restaurantes">
-                  <li>Lanchonetes</li>
+                  Lanchonetes
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-para-restaurantes' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-para-restaurantes') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-para-restaurantes">
-                 <li>Pizzarias</li>
+                  Pizzarias
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-de-gestao-para-autopecas' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-de-gestao-para-autopecas') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-de-gestao-para-autopecas">
-                  <li>Autopeças</li>
+                  Autopeças
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-de-gestao-para-assistencia-tecnica' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-de-gestao-para-assistencia-tecnica') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-de-gestao-para-assistencia-tecnica">
-                  <li>Assistência Técnica</li>
+                  Assistencia Têcnica
                  </Link>
+                 </li>
+
+                 <li className={ path == 'sistema-de-gestao-para-lojas-de-calcados' ? 'active' : ''} onClick={()=> {
+                  if (path == 'sistema-de-gestao-para-lojas-de-calcados') {
+                     window.scrollTo({
+      top: 0,
+      behavior: "smooth", 
+    });
+                  } else {
+                    null
+                  }
+                 }}>
                  <Link to="/sistema-de-gestao-para-lojas-de-calcados">
-                  <li>Calçados</li>
+                  Calçados
                  </Link>
+                 </li>
                 </ul>
          :
          null

@@ -50,7 +50,7 @@ export function Footer(){
 </li>
 
 <li >
-<a href='https://www.youtube.com/playlist?list=PL9pC29avZmiB1wMQLKPfrlolWlD7i0TBz' target='blank'>Vídeos explicativos</a>
+<a href='https://www.youtube.com/@BlueInnovation-m3g/search?query=offline' target='blank'>Vídeos explicativos</a>
 </li>
 
 <li>

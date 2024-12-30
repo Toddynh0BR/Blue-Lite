@@ -249,7 +249,7 @@ img {
 `
 
 export const Main2 = styled.div`
-height: 90vh;
+height: 80vh;
 width: 100%;
 
 padding: 10rem 12rem;
@@ -404,7 +404,7 @@ display: none;
 `
 
 export const Main4 = styled.div`
-height: 100vh;
+height: 70vh;
 width: 100%;
 
 justify-content: space-between;

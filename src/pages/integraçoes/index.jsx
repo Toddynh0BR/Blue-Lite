@@ -9,6 +9,7 @@ import { Footer } from "../../components/footer";
 
 import HeaderImg from "./assets/integracoes-sige-clod.png";
 import InputsImg from "./assets/integre-facil-com-o-sige-lite.svg";
+import LeftBack from "./assets/circulo-background-cta-integracoes.svg";
 
 import { FaPlus } from "react-icons/fa6";
 import { BsMouse } from "react-icons/bs";
@@ -131,7 +132,8 @@ export function Integraçoes() {
       </S.Main2>
 
       <S.Main3>
-       <div className="left">
+       <div className="left">~
+        <img src={LeftBack} alt="" className="leftBack"/>
         <img src={InputsImg} alt="" />
        </div>
 

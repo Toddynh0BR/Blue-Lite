@@ -293,17 +293,17 @@ Está procurando um <strong> sistema <br /> de controle de caixa ?</strong>
 
      <S.Main4 ref={section5Ref}>
       <div  className="left">
-      <img src={Image6} alt="" />
-      </div>
-
-      <div className="right">
-      
-       <h3>
+      <h3>
         <strong> Online e Offline</strong>
        </h3>
 
        <p>Você já sabe que é possível gerenciar suas <strong>vendas</strong>, <strong>financeiro</strong>, <strong>estoque</strong> e ainda emitir notas e cupons fiscais. Mas, você sabia que o <strong>Blue Lite</strong> funciona mesmo sem acesso à internet?</p>
+      </div>
 
+      <div className="right">
+      
+       
+       <img src={Image6} alt="" />
       </div>
      </S.Main4>
      <Footer/>

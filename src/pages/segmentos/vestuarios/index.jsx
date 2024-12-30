@@ -224,7 +224,6 @@ export function Vestuario() {
 
            </div>
 
-
            <div className="column c3">
             <div className="topic">
              <img src={C3I1} alt="" />

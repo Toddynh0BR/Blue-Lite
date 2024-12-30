@@ -116,7 +116,7 @@ img {
 }
 
 .rest {
- height: 40vh;
+ height: 50vh;
  width: 100%;
 
  justify-content: center;
@@ -145,7 +145,7 @@ img {
   gap: 1rem;
 
   .card {
-   height: 15rem;
+   height: 25rem;
    width: 100%;
 
    background-color: #ffbb00;
@@ -155,6 +155,7 @@ img {
 
    justify-content: center;
    align-items: center;
+   flex-direction: column-reverse;
    display: flex;
    gap: 2rem;
 
@@ -250,10 +251,10 @@ img {
 `
 
 export const Main2 = styled.div`
-height: 90vh;
+height: 70vh;
 width: 100%;
 
-padding: 10rem 12rem;
+padding: 15rem 12rem 5rem;
 
 justify-content: space-between;
 align-items: center;
@@ -405,7 +406,7 @@ display: none;
 `
 
 export const Main4 = styled.div`
-height: 100vh;
+height: 80vh;
 width: 100%;
 
 justify-content: space-between;

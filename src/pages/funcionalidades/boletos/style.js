@@ -453,7 +453,7 @@ h5 {
 `
 
 export const Main3 = styled.div`
-height: 70vh;
+height: 60vh;
 width: 100%;
 
 padding: 0rem 5rem;

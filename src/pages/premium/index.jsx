@@ -76,9 +76,11 @@ export function Premium(){
             Na versão premium, o Blue Lite fica com todas ferramentas liberadas e <strong> backup seguro na nuvem</strong>
           </h3>
 
+<a href="https://site.blueerp.com.br/ativacao" target="blank">
           <button>
             Contrate agora mesmo
           </button>
+          </a>
          </div>
         </div>
        </div>
@@ -284,9 +286,11 @@ export function Premium(){
             Na versão premium, o Blue Lite fica com todas ferramentas liberadas e <strong> backup seguro na nuvem</strong>
           </h3>
 
+          <a href="https://site.blueerp.com.br/ativacao" target="blank">
           <button>
             Contrate agora mesmo
           </button>
+          </a>
          </div>
         </div>
        </div>

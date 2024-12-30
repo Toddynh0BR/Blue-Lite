@@ -98,14 +98,20 @@ img {
       padding: .6rem 1rem .6rem 2rem;
       list-style: none;
 
+     a {
       font-size: 1.6rem;
       font-weight: 500;
       color: #0074FF;
+     }
 
       &:hover {
         cursor: pointer;
         background-color: #0073ff1a;
       }
+    }
+
+    .active {
+      background-color: #0073ff1a;
     }
   } 
 

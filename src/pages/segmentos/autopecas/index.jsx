@@ -229,9 +229,6 @@ export function Autopeca() {
           </div>
           
           <div className="columns">
-           <div className="line1">
-
-           </div>
 
            <div className="column">
             <div className="topic">

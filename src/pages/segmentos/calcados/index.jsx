@@ -193,9 +193,6 @@ export function Calcado() {
           </div>
           
           <div className="columns" ref={section1Ref}>
-           <div className="line1">
-
-           </div>
 
            <div className="column">
             <div className="topic">

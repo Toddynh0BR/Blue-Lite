@@ -227,9 +227,6 @@ Tudo o que a sua Assistência Técnica precisa, o Blue Lite tem!
           </div>
           
           <div className="columns">
-           <div className="line1">
-
-           </div>
 
            <div className="column">
             <div className="topic">
